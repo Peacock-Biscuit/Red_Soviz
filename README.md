@@ -1,5 +1,5 @@
-# MLBomantic
+# Red Soviz
 
 ## Goal
 
-In MLB website, when we see STAT section, we just know a bunch of figures. However, when we would like to get insights, this information is not really useful. Therefore, if there is a way to automate the visualization process on these figures, this allows users to clearly compare each team or player. 
+Baseball analysts can use MLB Data API to analyze performance of baseball players. Normally, when we go to MLB website, we couldn't quickly compare performance because it is just tabular data. Therefore, the project is to faciliate analytics process for professional analysts, especially for Red Sox. 
