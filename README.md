@@ -67,5 +67,5 @@ get_40men_pitching = PythonOperator(
 get_players >> [get_40men_hitting, get_40men_pitching]
 
 ```
-![Airflow Workflow](/assets/images/san-juan-mountains.jpg "San Juan Mountains")
+![Airflow Workflow](https://github.com/cyliu657/Red_Soviz/blob/main/images/workflow.png "Airflow Workflow")
 
