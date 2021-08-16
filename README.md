@@ -63,9 +63,20 @@ get_40men_pitching = PythonOperator(
     python_callable=get_pitching,
     dag=dag
 )
+load_mysql_hitting = DummyOperator(
+    task_id='load_hitting',
+    dag=dag
+)
+load_mysql_pitching = DummyOperator(
+    task_id='load_pitching',
+    dag=dag
+)
 # dependency
 get_players >> [get_40men_hitting, get_40men_pitching]
 
 ```
-![Airflow Workflow](https://github.com/cyliu657/Red_Soviz/blob/main/images/workflow.png "Airflow Workflow")
+And then, after running airflow webserver and airflow scheduler, we could go to `localhost:8080` and see the flow chart.
+<p align="center">
+  <img src="https://github.com/cyliu657/Red_Soviz/blob/main/images/workflow.png" alt="Airflow Workflow"/>
+</p>
 
