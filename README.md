@@ -81,3 +81,6 @@ And then, after running airflow webserver and airflow scheduler, we could go to 
 </p>
 
 ## Dashboard
+<p align="center">
+  <img src="https://github.com/cyliu657/Red_Soviz/blob/main/images/red_sox_hitting.png" alt="Red Sox Hitting"/>
+</p>
